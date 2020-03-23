@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8A0808</color>
+    <color name="colorPrimaryDark">#3B0B0B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#2e2e2e</color>
+    <color name="expandableViewHeader">#D5DDE0</color>
+    <color name="expandableViewChild">#e7e7e8</color>
+</resources>

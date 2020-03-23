@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="course.android.com.npuapplication.SocialMediaActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:id="@+id/relativeLayout"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:paddingBottom="30dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight ="1"
+                >
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:onClick="onFbButtonClick"
+                    android:background="@mipmap/ic_fb"
+
+                     />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight ="1"
+                >
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:background="@mipmap/ic_instagram"
+                    android:onClick="onInstagramButtonClick"
+                  />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight ="1"
+                >
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:background="@mipmap/ic_linkedin"
+                    android:onClick="onLinkedInButtonClick"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:paddingTop="30dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight ="1"
+                >
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:background="@mipmap/ic_twitter"
+                    android:onClick="onTwitterButtonClick"
+                     />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight ="1"
+                >
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:background="@mipmap/ic_youtube"
+                    android:onClick="onYoutubeButtonClick"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight ="1"
+                >
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:background="@mipmap/ic_npulogo"
+                    android:onClick="onNpuButtonClick"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       android:weightSum="0"
+        android:paddingTop="30dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight ="1"
+            >
+            <TextView
+
+                android:layout_gravity="center"
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Follow us!!!"
+                android:textColor="#8A0808"
+                android:textSize="30dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

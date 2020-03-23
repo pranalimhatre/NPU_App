@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">NpuApplication</string>
+    <string name="txt_user_name_hint">Enter User Name</string>
+    <string name="txt_password_hint">Enter Password</string>
+    <string name="font_family">sans-serif</string>
+    <string name="btn_txt_login">LOGIN</string>
+    <string name="btn_forgot_password_login">Forgot Password</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="btn_next">NEXT</string>
+    <string name="txt_dialod_reset_password">Send reset password link to</string>
+    <string name="btn_send">SEND</string>
+    <string name="reset_password_dialog_title">Reset Password</string>
+    <string name="reset_password_dialog_message">Do you want to send reset password link to pa***b@mail.npu.com?</string>
+    <string name="txtview_login_error_msg">Username and Password don\'t match</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="channel_name" translatable="false">NPU_Channel_Name</string>
+    <string name="channel_description" translatable="false">NPU_App_Notificaiton</string>
+    <string name="txtview_quiz_grade_title_text">Quiz Score</string>
+    <string name="txtview_homework_grade_title_text">Homework Score</string>
+
+    <string name="course_details">Details</string>
+    <string name="course_grade">Grade</string>
+    <string name="course_attendance">Attendance</string>
+    <string name="course_handout">Handout</string>
+    <string name="course_syallbus">Syllabus</string>
+    <string name="personal_profile">Personal Profile</string>
+    <string name="list_example">List Example</string>
+    <string name="text_ham_button_text_normal">Ham Button Text(Normal)</string>
+    <string name="text_ham_button_sub_text_normal">Ham Button Sub Text(Normal)</string>
+    <string name="txtview_course_details_title_text">Course Details</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="Username"></string>
+    <string name="User_email"></string>
+</resources>

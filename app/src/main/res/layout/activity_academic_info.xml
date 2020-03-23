@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="course.android.com.npuapplication.AcademicInfoActivity">
+    <ExpandableListView
+        android:id="@+id/expandview_academicinfo"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"></ExpandableListView>
+</android.support.constraint.ConstraintLayout>
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="course.android.com.npuapplication.AcademicInfoActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:paddingTop="13dp"
+    android:paddingLeft="28dp"
+    android:id="@+id/txt_total"
+    android:textColor="@color/colorPrimaryDark"/>
+    <android.support.v7.widget.RecyclerView
+android:paddingTop="40dp"
+        android:id="@+id/academicinfo_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector">
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>
